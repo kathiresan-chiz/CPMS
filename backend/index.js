@@ -30,7 +30,10 @@ app.use('/admin', require('./routes/superuser.route'));
 
 // route for company
 app.use('/company', require('./routes/company.route'));
-
+// test route
+app.use('/test', (req, res)=>{
+  res.status(200).send("Working Fine!");
+});
 
 
 app.listen(process.env.PORT, () => {
