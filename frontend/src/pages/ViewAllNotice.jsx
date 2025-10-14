@@ -6,7 +6,7 @@ import Badge from 'react-bootstrap/Badge';
 import TablePlaceholder from '../components/TablePlaceholder';
 import Toast from '../components/Toast';
 import ModalBox from '../components/Modal';
-import { BASE_URL } from '../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 
 function ViewlAllNotice() {

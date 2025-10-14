@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Toast from '../Toast';
 import UploadResume from './UploadResume';
-import { BASE_URL } from '../../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 
 function UpdatePlacementProfile() {

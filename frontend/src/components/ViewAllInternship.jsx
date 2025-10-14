@@ -7,7 +7,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import ModalBox from './Modal';
 import Toast from './Toast';
-import { BASE_URL } from '../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 import TablePlaceholder from './TablePlaceholder';
 
 function AddInternship() {

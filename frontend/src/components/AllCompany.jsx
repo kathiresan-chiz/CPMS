@@ -7,8 +7,8 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import ModalBox from './Modal';
 import Toast from './Toast';
-import { BASE_URL } from '../config/backend_url';
 import TablePlaceholder from './TablePlaceholder';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function AllCompany() {
   document.title = 'CPMS | All Company';

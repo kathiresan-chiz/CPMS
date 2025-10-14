@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import TablePlaceholder from './TablePlaceholder';
-import { BASE_URL } from '../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function AddUserTable({
   users,

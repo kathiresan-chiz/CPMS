@@ -6,7 +6,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import Toast from '../Toast';
 import ModalBox from '../Modal';
-import { BASE_URL } from '../../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function AddCompany() {
   document.title = 'CPMS | Add Company';

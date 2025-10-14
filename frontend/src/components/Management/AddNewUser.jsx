@@ -4,7 +4,7 @@ import { GrFormAdd } from 'react-icons/gr';
 import axios from 'axios';
 import Toast from '../Toast';
 import ModalBox from '../Modal';
-import { BASE_URL } from '../../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 import { useLocation } from 'react-router-dom';
 
 function AddNewUser() {

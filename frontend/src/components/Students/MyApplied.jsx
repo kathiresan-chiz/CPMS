@@ -5,7 +5,7 @@ import { Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import { BASE_URL } from '../../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function MyApplied() {
   document.title = 'CPMS | My Applied Job';

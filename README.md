@@ -1,13 +1,19 @@
 # College Placement Management System
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [User Roles](#user-roles)
-- [Installation](#installation)
-- [Contributors](#contributors)
+- [College Placement Management System](#college-placement-management-system)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Project Structure](#project-structure)
+  - [User Roles](#user-roles)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Clone the Repository](#clone-the-repository)
+    - [Backend Setup](#backend-setup)
+    - [Frontend Setup](#frontend-setup)
+  - [Contributors](#contributors)
 
 ## Introduction
 The **College Placement Management System** is a web application designed to streamline and digitize the placement process in colleges and universities. Developed by final year students of **Rizvi College of Engineering**, the system features a multi-role platform catering to students, TPO (Training and Placement Officer), management, and super admin. It aims to minimize manual efforts, improve transparency, and provide real-time tracking of the placement cycle.
@@ -37,8 +43,6 @@ The **College Placement Management System** is a web application designed to str
 │   │   ├── components
 │   │   │   ├── LandingPages
 │   │   │   └── students
-│   │   ├── config
-│   │   │   └── backend_url.js      # Contains: export const BASE_URL = 'https://cpms-api.vercel.app';
 │   │   ├── context
 │   │   ├── hooks
 │   │   ├── pages
@@ -46,6 +50,7 @@ The **College Placement Management System** is a web application designed to str
 │   │   ├── utility
 │   │   ├── App.jsx
 │   │   └── main.jsx
+│   ├── .env (NOTE: YOU NEED TO CREATE THIS FILE)
 │   ├── .gitignore
 │   ├── .eslint.config.js
 │   ├── index.html
@@ -121,10 +126,9 @@ cd college-placement-management-system
    ```bash
    npm install
    ```
-3. Change backend URL for local testing:
-   Go to `src/config/backend_url.js` and update:
-   ```js
-   export const BASE_URL = 'http://localhost:4518';
+3. Create a `.env` file for environment variables:
+   ```env
+   VITE_BACKEND_URL=http://localhost:4518
    ```
 4. Start the frontend development server:
    ```bash

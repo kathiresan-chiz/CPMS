@@ -7,7 +7,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Toast from './Toast';
-import { BASE_URL } from '../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function Account() {
   document.title = 'CPMS | Account';

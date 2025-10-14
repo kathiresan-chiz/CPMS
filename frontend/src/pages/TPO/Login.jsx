@@ -5,7 +5,7 @@ import Logo from '../../assets/CPMS.png';
 import Toast from '../../components/Toast';
 import isAuthenticated from '../../utility/auth.utility';
 import { Button } from 'react-bootstrap';
-import { BASE_URL } from '../../config/backend_url';
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 function LoginTPO() {
   document.title = 'CPMS | TPO Login';
