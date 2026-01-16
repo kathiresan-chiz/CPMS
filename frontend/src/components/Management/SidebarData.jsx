@@ -35,27 +35,27 @@ export const SidebarData = [
       },
     ],
   },
-  {
-    title: "TPO",
-    icon: <GrUserWorker />,
-    iconClosed: <RiArrowDownSFill />,
-    iconOpened: <RiArrowUpSFill />,
+  // {
+  //   title: "TPO",
+  //   icon: <GrUserWorker />,
+  //   iconClosed: <RiArrowDownSFill />,
+  //   iconOpened: <RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: "List All",
-        path: "/management/tpo-admin",
-        icon: <FaListUl />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Add New",
-        path: "/management/add-tpo-admin",
-        icon: <RiPlayListAddLine />,
-        cName: "sub-nav",
-      },
-    ],
-  },
+  //   subNav: [
+  //     {
+  //       title: "List All",
+  //       path: "/management/tpo-admin",
+  //       icon: <FaListUl />,
+  //       cName: "sub-nav",
+  //     },
+  //     {
+  //       title: "Add New",
+  //       path: "/management/add-tpo-admin",
+  //       icon: <RiPlayListAddLine />,
+  //       cName: "sub-nav",
+  //     },
+  //   ],
+  // },
   {
     title: "Company",
     icon: <LiaIndustrySolid />,

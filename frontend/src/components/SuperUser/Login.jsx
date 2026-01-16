@@ -138,9 +138,14 @@ function LoginSuperUser() {
             >
               {isLoading ? 'Loading...' : 'Log In'}
             </Button>
+            <p className='mt-3 font-bold' > For testing purposes </p>
+            <p className='mt-2'> username : admin@example.com</p>
+          <p> password : Admin@123</p>
           </div>
           <p className="text-muted text-center text-gray-400">© College Placement Management System 2026 - 27</p>
+          
         </form>
+        
       </div>
     </>
   )
