@@ -71,8 +71,7 @@ The **College Placement Management System** is a web application designed to str
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/moinmn/college-placement-management-system.git
-cd college-placement-management-system
+git clone https://github.com/kathiresan-chiz/CPMS.git
 ```
 
 ### Backend Setup
