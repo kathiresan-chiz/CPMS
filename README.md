@@ -1,26 +1,10 @@
 # College Placement Management System
 
-## Table of Contents
-- [College Placement Management System](#college-placement-management-system)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Tech Stack](#tech-stack)
-  - [Project Structure](#project-structure)
-  - [User Roles](#user-roles)
-  - [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [Clone the Repository](#clone-the-repository)
-    - [Backend Setup](#backend-setup)
-    - [Frontend Setup](#frontend-setup)
-  - [Contributors](#contributors)
-
 ## Introduction
-The **College Placement Management System** is a web application designed to streamline and digitize the placement process in colleges and universities. Developed by final year students of **Rizvi College of Engineering**, the system features a multi-role platform catering to students, TPO (Training and Placement Officer), management, and super admin. It aims to minimize manual efforts, improve transparency, and provide real-time tracking of the placement cycle.
+The **College Placement Management System** is a web application designed to streamline and digitize the placement process in colleges and universities. The system features a multi-role platform catering to students, management, and super admin. It aims to minimize manual efforts, improve transparency, and provide real-time tracking of the placement cycle.
 
 ## Features
 - **Student Portal**: Register and login, update profile, upload resume, view available job opportunities, apply for jobs, and track application status.
-- **TPO Admin Portal**: Post and manage job listings, approve/reject student applications, schedule interviews, upload offer letters.
 - **Management Admin Portal**: Access analytics, monitor placement stats, and view comprehensive reports.
 - **Super Admin Portal**: Full control of the system including onboarding TPOs and management users, managing system configurations.
 - **Cloudinary Integration**: Handles secure storage of profile pictures, resumes, and offer letters.
@@ -75,7 +59,6 @@ The **College Placement Management System** is a web application designed to str
 
 ## User Roles
 - **Students**: View and apply for jobs, update profile, track status, and upload resumes.
-- **TPO Admin**: Post jobs, manage applications, upload offer letters, and schedule interviews.
 - **Management Admin**: Access dashboards and reports for data-driven decision making.
 - **Super Admin**: Manage system settings, and create/manage TPO and Management users.
 
@@ -135,9 +118,4 @@ cd college-placement-management-system
    npm run dev
    ```
 
-## Contributors
-- **Member 1**: [Moin MN](https://www.linkedin.com/in/moinnaik/)
-- **Member 2**: Rafat Muskan Shaikh
-- **Member 3**: Saquib Patel
-- **Member 4**: Neeraj Kumar
 

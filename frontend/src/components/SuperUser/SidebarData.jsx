@@ -35,26 +35,26 @@ export const SidebarData = [
       },
     ],
   },
-  {
-    title: "TPO",
-    icon: <GrUserWorker />,
-    iconClosed: <RiArrowDownSFill />,
-    iconOpened: <RiArrowUpSFill />,
-    subNav: [
-      {
-        title: "List All",
-        path: "/admin/tpo",
-        icon: <FaListUl />,
-        cName: "sub-nav",
-      },
-      {
-        title: "Add New",
-        path: "/admin/add-tpo-admin",
-        icon: <RiPlayListAddLine />,
-        cName: "sub-nav",
-      },
-    ],
-  },
+  // {
+  //   title: "TPO",
+  //   icon: <GrUserWorker />,
+  //   iconClosed: <RiArrowDownSFill />,
+  //   iconOpened: <RiArrowUpSFill />,
+  //   subNav: [
+  //     {
+  //       title: "List All",
+  //       path: "/admin/tpo",
+  //       icon: <FaListUl />,
+  //       cName: "sub-nav",
+  //     },
+  //     {
+  //       title: "Add New",
+  //       path: "/admin/add-tpo-admin",
+  //       icon: <RiPlayListAddLine />,
+  //       cName: "sub-nav",
+  //     },
+  //   ],
+  // },
   {
     title: "Student",
     icon: <PiStudentDuotone />,

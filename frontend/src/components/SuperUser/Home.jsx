@@ -45,12 +45,12 @@ function Home() {
                   <span className='text-3xl max-sm:text-2xl'>{countUsers.managementUsers}</span>
                 </div>
               </Link>
-              <Link className='text-black no-underline' to='../admin/tpo'>
+              {/* <Link className='text-black no-underline' to='../admin/tpo'>
                 <div className="bg-slate-300/30 shadow h-44 w-60 text-center flex flex-col justify-evenly items-center rounded-md cursor-pointer border-2 border-gray-600 transition-all ease-in-out hover:bg-slate-400/30  max-sm:h-32 max-sm:w-44">
                   <span className='text-3xl max-sm:text-2xl'>TPO Admin</span>
                   <span className='text-3xl max-sm:text-2xl'>{countUsers.tpoUsers}</span>
                 </div>
-              </Link>
+              </Link> */}
               <Link className='text-black no-underline' to='../admin/student'>
                 <div className="bg-slate-300/30 shadow h-44 w-60 text-center flex flex-col justify-evenly items-center rounded-md cursor-pointer border-2 border-gray-600 transition-all ease-in-out hover:bg-slate-400/30  max-sm:h-32 max-sm:w-44">
                   <span className='text-3xl max-sm:text-2xl'>Student User</span>

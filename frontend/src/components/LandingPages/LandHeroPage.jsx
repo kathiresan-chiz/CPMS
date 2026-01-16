@@ -21,29 +21,29 @@ function LandingHeroPage() {
   return (
     <section
       id="home"
-      className="relative h-[90vh] w-full flex items-center justify-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${HeroImg})` }}
+      className="relative h-[90vh] w-full flex items-center justify-center bg-white-200"
+      // style={{ backgroundImage: `url(${HeroImg})` }}
     >
       {/* Dark glass overlay */}
-      <div className="absolute inset-0 bg-black/40 bg-opacity-20 backdrop-blur-sm" />
+      {/* <div className="absolute inset-0 bg-black/40 bg-opacity-20 backdrop-blur-sm" /> */}
 
       {/* Content */}
-      <div className="relative z-20 max-w-5xl text-center">
-        <h1 className="text-white text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight drop-shadow-md">
-          Empower Your Career with <br />
-          <span className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 text-transparent bg-clip-text">
-            CPMS Portal
+      <div className="relative z-20 max-w-5xl text-center pb-[10px] ">
+        <h1 className="text-black text-4xl sm:text-5xl md:text-6xl font-bold leading-tight drop-shadow-md lh-sm">
+          Build Skills. Track Progress. Empower Your Career<br />
+          <span className=" text-green-800 bg-clip-text">
+            With CPMS Portal
           </span>
         </h1>
 
-        <p className="mt-6 text-gray-300 text-lg sm:text-xl font-light">
+        <p className="mt-6 text-gray-700 text-lg sm:text-xl font-light">
           Discover opportunities, track progress, and connect with your tpo — all in one place.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
           <input
             type="email"
-            className="px-5 py-3 w-80 sm:w-96 rounded-xl shadow-md focus:outline-none focus:ring-4 focus:ring-green-400 text-black transition duration-300"
+            className="px-5 py-3 w-80 sm:w-96 rounded-xl shadow-lg focus:outline-none focus:ring-4 focus:ring-green-400 text-black transition duration-300"
             placeholder="Enter your email..."
             value={email}
             onChange={(e) => setEmail(e.target.value)}
